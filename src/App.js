@@ -2,21 +2,11 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from "./Uicomponents/Login";
+import Loginpage from "./Uicomponents/Login/Loginpage"
 function App() {
   return (
-    <div className="App">
-      <Router  
-      // path="/coffee"
-      //  basename="/mk school/"
+<>hi</>
      
-       >
-        <Routes>
-          <Route exact path="/" element={<Login/>} />
-         
-          </Routes>
-          </Router>
-    </div>
   );
 }
 

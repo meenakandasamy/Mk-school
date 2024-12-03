@@ -1,5 +1,7 @@
-.image-screen{
-    background: linear-gradient(to top,#882424, #ca8c60);
-   height: 100%;
+.image-screen {
+    background: linear-gradient(to bottom right, #882424 0%, #f28a8a 100%);
+    border: none;
+    padding: none;
+    height: 100vh
 
 }
